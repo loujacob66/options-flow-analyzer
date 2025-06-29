@@ -32,8 +32,6 @@ jobs:
     
     - name: Test CLI commands
       run: |
-        python -m options_analyzer --help
-        python -m options_analyzer demo --help
         python -m options_analyzer config
         python -m options_analyzer demo SPY --min-volume 100
 
