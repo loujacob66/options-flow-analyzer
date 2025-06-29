@@ -28,6 +28,11 @@ jobs:
         pip install -r requirements.txt
         pip install -r requirements-dev.txt
     
+    - name: Create dummy .env file for docs build
+      run: |
+        echo "POLYGON_API_KEY=dummy_key_for_docs" > .env
+        echo "TRADIER_API_KEY=dummy_key_for_docs" >> .env
+    
     - name: Build documentation
       run: |
         cd docs

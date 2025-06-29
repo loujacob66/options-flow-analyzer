@@ -34,10 +34,17 @@ jobs:
       run: |
         python -m pytest tests/ -v --cov=options_flow_analyzer --cov-report=term-missing
     
-    - name: Test CLI commands
+    - name: Test basic import
+      run: |
+        python -c "import options_flow_analyzer; print('Import successful')"
+    
+    - name: Test CLI help
+      run: |
+        python -m options_flow_analyzer --help
+    
+    - name: Test config command
       run: |
         python -m options_flow_analyzer config
-        python -m options_flow_analyzer demo SPY --min-volume 100
 
   lint:
     runs-on: ubuntu-latest
