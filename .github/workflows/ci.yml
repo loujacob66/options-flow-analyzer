@@ -25,10 +25,11 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
+        pip install pytest-cov
     
-    - name: Run tests
+    - name: Run tests with coverage
       run: |
-        python -m pytest tests/ -v
+        python -m pytest tests/ -v --cov=options_analyzer --cov-report=term-missing
     
     - name: Test CLI commands
       run: |
@@ -60,3 +61,8 @@ jobs:
     - name: Check formatting with black
       run: |
         black --check --diff .
+    
+    - name: Security scan
+      run: |
+        pip install safety
+        safety check

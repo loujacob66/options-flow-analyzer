@@ -60,3 +60,6 @@ htmlcov/
 # Logs
 *.log
 logs/
+
+# Documentation
+docs/_build/
