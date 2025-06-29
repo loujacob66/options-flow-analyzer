@@ -47,4 +47,4 @@ Verify the installation by running:
 
 .. code-block:: bash
 
-   python -m options_analyzer --version
+   python -m options_flow_analyzer --version

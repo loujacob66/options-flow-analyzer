@@ -33,7 +33,7 @@ setup(
     install_requires=requirements,
     entry_points={
         "console_scripts": [
-            "options-analyzer=options_analyzer.cli:app",
+            "options-analyzer=options_flow_analyzer.cli:app",
         ],
     },
 )

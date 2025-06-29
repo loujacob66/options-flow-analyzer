@@ -6,7 +6,7 @@ This section provides detailed documentation of the Options Flow Analyzer API.
 Main Module
 -----------
 
-.. automodule:: options_analyzer
+.. automodule:: options_flow_analyzer
    :members:
    :undoc-members:
    :show-inheritance:
@@ -14,7 +14,7 @@ Main Module
 Analyzer
 --------
 
-.. automodule:: options_analyzer.analyzer
+.. automodule:: options_flow_analyzer.analyzer
    :members:
    :undoc-members:
    :show-inheritance:
@@ -22,7 +22,7 @@ Analyzer
 Data Fetcher
 ------------
 
-.. automodule:: options_analyzer.data_fetcher
+.. automodule:: options_flow_analyzer.data_fetcher
    :members:
    :undoc-members:
    :show-inheritance:
@@ -30,7 +30,7 @@ Data Fetcher
 Configuration
 -------------
 
-.. automodule:: options_analyzer.config
+.. automodule:: options_flow_analyzer.config
    :members:
    :undoc-members:
    :show-inheritance:
@@ -38,7 +38,7 @@ Configuration
 Display
 -------
 
-.. automodule:: options_analyzer.display
+.. automodule:: options_flow_analyzer.display
    :members:
    :undoc-members:
    :show-inheritance:
@@ -46,7 +46,7 @@ Display
 CLI
 ---
 
-.. automodule:: options_analyzer.cli
+.. automodule:: options_flow_analyzer.cli
    :members:
    :undoc-members:
    :show-inheritance:

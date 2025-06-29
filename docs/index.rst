@@ -33,7 +33,7 @@ Run the analyzer:
 
 .. code-block:: bash
 
-   python -m options_analyzer --help
+   python -m options_flow_analyzer --help
 
 Indices and tables
 ==================

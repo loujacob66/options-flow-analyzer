@@ -46,7 +46,7 @@ Run tests with coverage:
 
 .. code-block:: bash
 
-   pytest --cov=options_analyzer
+   pytest --cov=options_flow_analyzer
 
 Code Quality
 ------------

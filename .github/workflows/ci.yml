@@ -29,12 +29,12 @@ jobs:
     
     - name: Run tests with coverage
       run: |
-        python -m pytest tests/ -v --cov=options_analyzer --cov-report=term-missing
+        python -m pytest tests/ -v --cov=options_flow_analyzer --cov-report=term-missing
     
     - name: Test CLI commands
       run: |
-        python -m options_analyzer config
-        python -m options_analyzer demo SPY --min-volume 100
+        python -m options_flow_analyzer config
+        python -m options_flow_analyzer demo SPY --min-volume 100
 
   lint:
     runs-on: ubuntu-latest

@@ -8,7 +8,7 @@ The Options Flow Analyzer provides a command-line interface for easy usage:
 
 .. code-block:: bash
 
-python -m options_analyzer [OPTIONS]
+python -m options_flow_analyzer [OPTIONS]
 
 Available Options
 -----------------
@@ -25,19 +25,19 @@ Basic usage:
 
 .. code-block:: bash
 
-   python -m options_analyzer
+   python -m options_flow_analyzer
 
 With configuration file:
 
 .. code-block:: bash
 
-   python -m options_analyzer --config config.yaml
+   python -m options_flow_analyzer --config config.yaml
 
 Verbose output:
 
 .. code-block:: bash
 
-   python -m options_analyzer --verbose
+   python -m options_flow_analyzer --verbose
 
 Configuration
 -------------
@@ -64,7 +64,7 @@ You can also use the analyzer programmatically:
 
 .. code-block:: python
 
-from options_analyzer import analyzer
+from options_flow_analyzer import analyzer
    
    analyzer_instance = analyzer.OptionsAnalyzer()
    results = analyzer_instance.analyze()

@@ -35,5 +35,5 @@ repos:
     rev: 1.7.5
     hooks:
       - id: bandit
-        args: ["-r", "options_analyzer/"]
+        args: ["-r", "options_flow_analyzer/"]
         exclude: tests/

@@ -2,9 +2,9 @@
 
 import pytest
 import pandas as pd
-from options_analyzer.data_fetcher import OptionsDataFetcher
-from options_analyzer.analyzer import OptionsAnalyzer
-from options_analyzer.config import Config
+from options_flow_analyzer.data_fetcher import OptionsDataFetcher
+from options_flow_analyzer.analyzer import OptionsAnalyzer
+from options_flow_analyzer.config import Config
 
 
 def test_config_validation():
